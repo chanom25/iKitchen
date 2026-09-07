@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import "tailwindcss";
+
+/* ไฟล์ใช้ใส่สี เราสามารถเอาโค้ดสีมาแปะไว้ในนี้ได้ เวลาจะใช้ก็เอาชื่อสีไป */
+
+@theme {
+
+    /* ด้านล่างคือตัวอย่างการใช้งาน*/
+
+    /*--font-sans: "Sarabun", sans-serif;
+    --color-dark-delft-blue: #295F9B;
+    --color-light-golden-yellow: #FAE7A3;
+    --color-porpoise: #4D4C5C;
+    --color-cloud: #DBE2E9;*/
+}
+
+body {
+    font-family: var(--font-sans);          /*เราตั้ง base font style เป็น th sarabun psk ไว้แล้ว ไม่ต้องติดตั้งเพิ่ม*/
+    font-size: 0.875rem;                    /*กำหนด base font size ให้ทั้งเว็บไซต์ แก้ได้เลย*/
+}
